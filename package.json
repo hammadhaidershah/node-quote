@@ -7,10 +7,16 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.16.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3",
+    "nodemon": "^2.0.20"
+  }
 }
